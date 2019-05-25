@@ -15,10 +15,7 @@ class SCartServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
-        include __DIR__.'/routes/web.php';
-        $this->app->make('Livenatural\SCart\SCartController');
-
+        
         $this->app->bind('cart', 'Livenatural\SCart\Cart');
 
         $config = __DIR__ . '/../config/cart.php';

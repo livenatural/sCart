@@ -13,11 +13,19 @@
         "mockery/mockery": "~1.0",
         "orchestra/testbench": "~3.8"
     },
+    "autoload": {
+        "psr-4": {
+            "Livenatural\\SCart\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
                 "Livenatural\\SCart\\SCartServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "SCart": "Livenatural\\SCart\\Facades\\Cart"
+            }
         }
     },
     "minimum-stability": "dev"
