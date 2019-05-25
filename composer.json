@@ -1,0 +1,13 @@
+{
+    "name": "livenatural/s_cart",
+    "description": "Simple Laravel Shopping Cart",
+    "type": "metapackage",
+    "require": {
+        "illuminate/support": "^5.9@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2@dev"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev"
+}
