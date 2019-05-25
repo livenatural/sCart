@@ -13,5 +13,12 @@
         "mockery/mockery": "~1.0",
         "orchestra/testbench": "~3.8"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Livenatural\\SCart\\SCartServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev"
 }
